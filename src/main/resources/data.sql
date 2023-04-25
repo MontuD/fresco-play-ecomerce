@@ -1,4 +1,4 @@
-insert into user(username,password) values ('jack', 'pass_word'),('bob', 'pass_word'),('apple', 'pass_word'),('glaxo', 'pass_word');
+insert into application_user(username,password) values ('jack', 'pass_word'),('bob', 'pass_word'),('apple', 'pass_word'),('glaxo', 'pass_word');
 insert into role(role_name) values  ('CONSUMER'),('SELLER');
 insert into user_roles(USER_USER_ID  ,	ROLES_ROLE_ID  ) values(1, 1),(2, 1),(3, 2),(4, 2);
 insert into category(category_name) values ('Fashion'),('Electronics'),('Books'),('Groceries'),('Medicines');
